@@ -1,17 +1,17 @@
 {
   "name": "SBHS HackTJ App",
-  "description": "Cool One Time Pad Encryption thingy.",
+  "description": "Stone Bridge is Cool.",
   "version": "0.0.0.1",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "icons": {
     "128": "icon_128.png"
   },
   "app": {
     "urls": [
-      "alexj.co"
+      "http://alexj.co/"
     ],
     "launch": {
-      "web_url": "alexj.co"
+      "web_url": "http://alexj.co/"
     }
   }
 }
