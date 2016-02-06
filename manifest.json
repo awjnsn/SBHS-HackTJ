@@ -1,0 +1,17 @@
+{
+  "name": "SBHS HackTJ App",
+  "description": "Cool One Time Pad Encryption thingy.",
+  "version": "0.0.0.1",
+  "manifest_version": 1,
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "app": {
+    "urls": [
+      "alexj.co"
+    ],
+    "launch": {
+      "web_url": "alexj.co"
+    }
+  }
+}
