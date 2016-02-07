@@ -11,7 +11,8 @@ color: #000000;
 
 }
 p{
-
+  margin-top: 20px;
+  margin-left: 40%;
   font-size: 20px;
   font-family: verdana;
   text-align: center;
@@ -42,7 +43,6 @@ form{
 input{
   margin-bottom: 5%;
   margin-top: 10%;
-  width:
 }
 
 .button{
@@ -51,13 +51,17 @@ input{
   margin-bottom: 5%;
   width: 100px;
   height: 35px;
-  font-family: cursive;
+  font-family: verdana;
   font-size: 20px;
 
 
 }
 input:hover{
   border-color: #8d9a77;
+  font-family: verdana;
+  height: inherit;
+  width: inherit;
+
   border-width: 2px;
   border-style: inset;
   box-shadow: 2px 2px 2px #000000;
