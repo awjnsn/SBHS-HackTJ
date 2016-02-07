@@ -6,7 +6,11 @@ function hello(){
 		for(var i = 0; i < input.length; i++){
 			out += String.fromCharCode(input.charCodeAt(i) ^ key.charCodeAt(i));
 		}
-		alert(out);
+		//alert(out);
+		var a = "alert('";
+		var b = "')";
+		var arg = a.concat(out,b);
+		chrome.tabs.executeScript(null,{code:arg});
 	}
 	else{
 		chrome.tabs.executeScript(null,{code:"alert('The length of the input and key need to be the same!')"});
