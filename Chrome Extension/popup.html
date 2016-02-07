@@ -1,18 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<link type = "text/css" rel = "stylesheet" href = "popUp.css"/>
-	<title = "Sensitive Data Encryption Tool"> </title>
+	<title = "Wire you mad?"> </title>
 </head>
 <body>
 	<p class = "">Enter your sensitive information here:</p>
 	<form action = "crypto.txt">
 	<div class = "textHere">	
-		In: <input type = "text" name = "name">  <br>
-		Key: <input type = "text" name = "name"> <br>
-		Out: <input type = "text" name = "name" readonly></div>
-		<input class = "encrypt" type = "button" value = "Encrypt / Decrypt" onClick = "">
-
+		In: <input type = "text" name = "in"><br>
+		Key: <input type = "text" name = "key"><br>
+		Out: <input type = "text" name = "out" readonly></div>
+		<br>
+		<button class="encrypt" onclick="otp()">Encrypt / Decrypt </button>
+		<script type="text/javascript">document.getElementById("out").innerHTML = "Cool"</script>
 	</form>
+
 </body>
 </html>
