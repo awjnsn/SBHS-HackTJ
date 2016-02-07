@@ -53,7 +53,6 @@ input{
   margin-bottom: 5%;
   width: 100px;
   height: 35px;
-  font-family: cursive;
   font-size: 20px;
   width: auto;
 
@@ -68,7 +67,12 @@ input{
   font-family: verdana;
   font-size: 20px;
 }
-input:hover{
+.upload:hover{
+  border-color: #8d9a77;
+  border-width: 2px;
+  border-style: inset;
+}
+.encrypt:hover{
   border-color: #8d9a77;
   border-width: 2px;
   border-style: inset;
