@@ -1,5 +1,5 @@
 body{
-background-color: #cdb79e;
+background-color: #d9d1ff;
 width: 25%;
 height: auto;
 position: relative;
@@ -14,8 +14,8 @@ p{
 
   font-size: 18px;
   margin-left: 25px;
-  margin-bottom: -30px;
-  font-family: verdana;
+  margin-bottom: -40px;
+  font-family: sans-serif;;
   text-align: center;
   width: 200px;
   height: auto;
@@ -32,19 +32,19 @@ form{
 }
 .textHere{
   margin-top: 20%;
-  font-size: 25px;
-  background-color: #556527;
+  font-size: 20px;
+  background-color: #f6f6f6;
   border-style: outset;
-  border-color: #222222;
-  border-width: 3px;
+  border-color: #5b2527;
+  border-width: 9px;
   padding: 5%;
 
   text-align: center;
 }
 input{
   margin-bottom: 5%;
-  margin-top: 5%;
-  width:
+  margin-top: 2%;
+  width: 200px;
 }
 
 .encrypt{
@@ -56,7 +56,7 @@ input{
   margin-bottom: 5%;
   width: 100px;
   height: 35px;
-  font-size: 20px;
+  font-size: 16px;
   width: auto;
 
 
@@ -70,6 +70,7 @@ input{
   font-family: verdana;
   font-size: 20px;
 }
+
 .upload:hover{
   border-color: #8d9a77;
   border-width: 2px;
