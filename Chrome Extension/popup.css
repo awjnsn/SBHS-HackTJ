@@ -48,6 +48,9 @@ input{
 }
 
 .encrypt{
+  border-color: #8d9a77;
+  border-width: 2px;
+  border-style: outset;
   position: relative;
   text-align: center;
   margin-bottom: 5%;
@@ -80,16 +83,7 @@ input{
   font-size: 20px;
 }
 .encrypt:hover{
-  border-color: #8d9a77;
-  border-width: 2px;
   border-style: inset;
-  position: relative;
-  text-align: center;
-  margin-bottom: 5%;
-  width: 100px;
-  height: 35px;
-  font-size: 20px;
-  width: auto;
-  /**--box-shadow: 2px 2px 2px #000000;*/
+
 
 }
