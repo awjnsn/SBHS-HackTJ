@@ -12,22 +12,20 @@ color: #000000;
 }
 p{
 
-  font-size: 25px;
+  font-size: 20px;
   font-family: verdana;
-  margin-left: 15%;
-  width: 300px;
+  text-align: center;
+  width: 100%;
   height: auto;
 }
 
 
 form{
-  background: #556527;
-  margin-right: 20%;
-  margin-left: 20%;
-  text-align: center;
-  width: 300px;
-  height: auto;
   margin-top: 5%;
+  background: #556527;
+  text-align: center;
+  width: 250px;
+  height: auto;
 
 }
 .textHere{
@@ -50,11 +48,18 @@ input{
 .button{
   position: relative;
   text-align: center;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   width: 100px;
   height: 35px;
   font-family: cursive;
   font-size: 20px;
 
+
+}
+input:hover{
+  border-color: #8d9a77;
+  border-width: 2px;
+  border-style: inset;
+  box-shadow: 2px 2px 2px #000000;
 
 }
