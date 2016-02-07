@@ -2,7 +2,7 @@ function hello(){
 	var input = document.getElementById('in').value;
 	var key = document.getElementById('key').value;
 	if(input.length == key.length){
-		var out = ''
+		var out = '';
 		for(var i = 0; i < input.length; i++){
 			out += String.fromCharCode(input.charCodeAt(i) ^ key.charCodeAt(i));
 		}
