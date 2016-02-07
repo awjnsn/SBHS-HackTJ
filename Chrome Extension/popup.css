@@ -11,12 +11,13 @@ color: #000000;
 
 }
 p{
-  margin-top: 20px;
-  margin-left: 40%;
-  font-size: 20px;
+
+  font-size: 18px;
+  margin-left: 25px;
+  margin-bottom: -30px;
   font-family: verdana;
   text-align: center;
-  width: 100%;
+  width: 200px;
   height: auto;
 }
 
@@ -42,28 +43,35 @@ form{
 }
 input{
   margin-bottom: 5%;
-  margin-top: 10%;
+  margin-top: 5%;
+  width:
 }
 
-.button{
+.encrypt{
   position: relative;
   text-align: center;
   margin-bottom: 5%;
   width: 100px;
   height: 35px;
-  font-family: verdana;
+  font-family: cursive;
   font-size: 20px;
+  width: auto;
 
 
 }
+.upload{
+  position: relative;
+  text-align: center;
+  margin-bottom: 5%;
+  width: auto;
+  height: 35px;
+  font-family: verdana;
+  font-size: 20px;
+}
 input:hover{
   border-color: #8d9a77;
-  font-family: verdana;
-  height: inherit;
-  width: inherit;
-
   border-width: 2px;
   border-style: inset;
-  box-shadow: 2px 2px 2px #000000;
+  /**--box-shadow: 2px 2px 2px #000000;*/
 
 }
